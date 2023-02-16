@@ -1,6 +1,6 @@
 {
     "name": "b0rner/yii2-solr",
-    "description": "Solr plugin for the Yii2 framework built ontop of Solarium 6 an PHP 8",
+    "description": "Solr plugin for the Yii2 framework built on top of Solarium 6 and PHP 8",
     "type": "yii2-extension",
     "keywords": ["b0rner", "yii2", "extension", "yii2-extension", "Yii2 Extension", "solr", "solarium", "php8"],
     "license": "BSD-3-Clause",
