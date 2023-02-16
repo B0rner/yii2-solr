@@ -4,6 +4,8 @@ yii2-solr
 A Yii2 Solr Extension built on top of Solarium 6 and works with PHP 8.
 This extension is based of the yii2-solr from Sammaye (https://github.com/Sammaye/yii2-solr), which unfortunately is not being developed further. Thanks Sammaye for the important work so far that has made it possible to use Solr elegantly in Yii2.
 
+This code is provided as is, and no guarantee is given, also no warranty/guarantee, that this code will preform in the desired way.There will be no guarantee that there will be patches for this software in the future.
+
 Essentially this is a Yii2 plugin for Solarium and it is dirt simple to use, all it does is abstract certain parts of Solarium into Yii2.
 
 There are only two files you need to pay attention to in this repository:
@@ -49,7 +51,8 @@ Using the data provider for widgets is just as easy, as another example:
 
 ```php
 $query = Yii::$app->solr->createSelect();
-$query->setQuery('(alt_subject_mpath:' . $model->path . ' OR alt_subject_mpath:' . $model->path . '.*) AND live:1');
+// set query, use solr syntax
+$query->setQuery('name:bob');
 
 new SolrDataProvider([
     'query' => $query,
