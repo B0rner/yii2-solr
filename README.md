@@ -482,5 +482,12 @@ $resultB = $news->find()
 
 ```
 
+Last
+===
+To get a list of all suppoerte Solr parameters see `Query-php`
+
+Credits
+===
+
 Co-authored-by: rmatulat <https://github.com/rmatulat>
 Special thanks to @rmatulat for contributing the majority of ActiveRecord, ActiveDataProvider, ActiveFixtures.

@@ -24,7 +24,6 @@ use yii\test\BaseActiveFixture;
  * After the fixture is loaded, you can access the loaded data via the [[data]] property. If you set [[modelClass]],
  * you will also be able to retrieve an instance of [[modelClass]] with the populated data via [[getModel()]].
  *
- * @author ralf.matulat@bundestag.de
  */
 class ActiveFixture extends BaseActiveFixture
 {

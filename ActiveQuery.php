@@ -4,7 +4,6 @@
  * @copyright Copyright (c) 2008 Yii Software LLC
  * @license https://www.yiiframework.com/license/
  *
- * @author ralf.matulat@bundestag.de
  */
 namespace b0rner\solr;
 
