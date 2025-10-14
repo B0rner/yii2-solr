@@ -5,7 +5,7 @@ namespace b0rner\solr;
 use Yii;
 
 /**
- * This is a static hleper for Solr, this is specific to things that have been done 
+ * This is a static helper for Solr, this is specific to things that have been done 
  * in our Solr deployment, however, others may find it useful, or not, it is upto you to use it.
  */
 class Solr
