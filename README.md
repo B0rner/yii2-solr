@@ -4,6 +4,8 @@ yii2-solr Extension
 A Yii2 Solr Extension built on top of [Solarium 6](https://solarium.readthedocs.io/en/stable/getting-started/) and PHP 8.
 This extension is based of the yii2-solr from Sammaye (https://github.com/Sammaye/yii2-solr), which unfortunately is not being developed further. Thanks Sammaye for the important work so far that has made it possible to use Solr elegantly in Yii2.
 
+Unlike Sammaye's original extension, this version now provides ActiveRecord implementation for Solr data. This brings Solr document handling in line with Yii2's standard database ActiveRecord patterns, making it significantly easier and more intuitive to work with Solr. The ActiveRecord implementation provides familiar Yii2 patterns (`find()`, `findOne()`, `save()`, `delete()`, etc.), eliminates boilerplate code, and includes full ActiveDataProvider and ActiveFixture support.
+
 This code is provided as is, and no guarantee is given, also no warranty/guarantee, that this code will preform in the desired way.There will be no guarantee that there will be patches for this software in the future.
 
 This extension tries to mimic Yii's database bahavior as close as possible. As Yii provides different ways to query SQL databases, this extension does the same with SOLR. Nevertheless SQL databases and SOLR are different in many ways - so there have to be compromises.
@@ -480,4 +482,5 @@ $resultB = $news->find()
 
 ```
 
-
+Co-authored-by: rmatulat <https://github.com/rmatulat>
+Special thanks to @rmatulat for contributing the majority of ActiveRecord, ActiveDataProvider, ActiveFixtures.
